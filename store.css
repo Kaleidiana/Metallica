@@ -1,11 +1,60 @@
 
 /*title*/
 .tittle h2::before{
-    position: absolute;
-    content: "" ;
-    width: 4px;
-    height: 50px;
-    background-color:  pink;
-    top: 40%;
-    transform: translate(-50%);
+   position: absolute;
+   content: "";
+   width: 4px;
+   height: 50px;
+   background-color: pink;
+   left: -20px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+/*collective*/
+.active-filter-btn{
+    background-color:pink !important;
+    color:#fff !important;
+    border-color: pink !important;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+}
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    z-index: -5;
+}
+
+ .card-text, .card-subtitle {
+    color: rgb(102, 12, 102);
+}
+.card .card-title {
+    color: rgb(65, 1, 65);
+}
+.title h2 {
+    color: purple;
+}
+.custom-card-class {
+    margin-left: auto;
+    margin-right: auto;
+}
+.price{
+    color: #fff;
 }
