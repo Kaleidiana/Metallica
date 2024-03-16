@@ -1,0 +1,11 @@
+
+/*title*/
+.tittle h2::before{
+    position: absolute;
+    content: "" ;
+    width: 4px;
+    height: 50px;
+    background-color:  pink;
+    top: 40%;
+    transform: translate(-50%);
+}
