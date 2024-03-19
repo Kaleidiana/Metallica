@@ -8,18 +8,20 @@
 body {
     width: 100%;
     min-height: 100vh;
+}
+
+.background-container {
     width: 100%;
     height: 100vh;
-    background-image: url("my imgs/pexels-jordy-toscano-18835601.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("") background-repeat: no-repeat;
+    animation: moveUp 10s linear infinite, moveDown 10s linear infinite;
 }
 
 .navbar-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 10%;
+    height: 100%;
 }
 
 .navbar {
@@ -73,7 +75,7 @@ body {
     display: flex;
     overflow-x: hidden;
     width: 100%;
-    height: 400px;
+    height: 200px;
     position: relative;
     align-items: center;
     justify-content: space-between;
@@ -83,7 +85,7 @@ body {
     display: flex;
     overflow-x: hidden;
     width: 100%;
-    height: 400px;
+    height: 200px;
     position: relative;
     align-items: center;
     justify-content: space-between;
